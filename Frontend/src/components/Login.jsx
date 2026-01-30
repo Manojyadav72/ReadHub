@@ -1,5 +1,5 @@
 import React from "react";
-import { Link , useLocation, useNavigate} from "react-router-dom";
+import { Link} from "react-router-dom";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import toast from "react-hot-toast";
@@ -21,13 +21,11 @@ function Login() {
           console.log(response.data);
           if(response.data){
             toast.success('Login Successful!');
-            navigate(from,{replace:true});
             document.getElementById("my_modal_3").close();
             setTimeout(()=>{
             window.location.reload();
             localStorage.setItem("userInfo", JSON.stringify(response.data.user));
             },1000)
-            
           }
           
         })
@@ -85,13 +83,13 @@ function Login() {
                 Login
               </button>
               <p>
-                Not registered?{" "}
+                Not registered?
                 <Link
                   to="/signup"
                   className="underline text-blue-400 cursor-pointer "
                 >
                   SignUp
-                </Link>{" "}
+                </Link>
               </p>
             </div>
           </form>
