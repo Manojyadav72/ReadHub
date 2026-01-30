@@ -29,7 +29,7 @@ function Banner() {
                 <input type="text" className="grow" placeholder="Email" />
               </label>
             </div>
-            <button className="btn btn-secondary mt-6 bg-pink-500 p-4">Secondary</button>
+            <button className="btn btn-secondary mt-6 bg-pink-500 p-4">Get Started</button>
           </div>
           <div className="order-1 w-full md:w-1/2  dark:bg-slate-900">
             <img src={banner} className="w-92 h-92" alt="image" />

@@ -1,10 +1,26 @@
 import React from 'react';
-import list from "../../public/list.json";
+
 import Cards from './Cards';
 import { Link } from 'react-router-dom';
-
+import { use } from 'react';
+import axios from 'axios';
+import { useEffect,useState } from 'react'; 
 
 function Course() {
+  const [book,setbook]=React.useState([]);
+  useEffect(() => {
+    const getBook = async () => {
+      try {
+        const response = await axios.get('http://localhost:4001/book');
+        console.log(response.data);
+        setbook(response.data);
+      } catch (error) {
+        console.error('Error fetching books:', error);
+      }
+    }
+      getBook();
+    
+  }, []);     
 
   return (
     <>
@@ -26,7 +42,7 @@ function Course() {
         </div>
         <div className="mt-12 grid grid-cols-1 md:grid-cols-4">
           {
-            list.map((item)=>(
+            book.map((item)=>(
               <Cards key={item.id} item={item} />
             ))
           }
