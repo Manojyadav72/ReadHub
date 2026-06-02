@@ -10,7 +10,7 @@ function Course() {
   useEffect(() => {
     const getBook = async () => {
       try {
-        const response = await axios.get('http://localhost:4001/book');
+        const response = await axios.get('https://readhub-qkv1.onrender.com/book');
         console.log(response.data);
         setbook(response.data);
       } catch (error) {

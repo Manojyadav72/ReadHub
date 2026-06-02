@@ -105,7 +105,7 @@ function AdminBooks() {
                                         <div className="flex items-center gap-3">
                                             <div className="w-10 h-14 rounded bg-gray-200 dark:bg-gray-800 flex-shrink-0 overflow-hidden">
                                                 <img 
-                                                    src={book.image ? (book.image.startsWith('http') ? book.image : `http://localhost:4001${book.image}`) : "https://via.placeholder.com/40x60?text=NA"} 
+                                                    src={book.image ? (book.image.startsWith('http') ? book.image : `https://readhub-qkv1.onrender.com${book.image}`) : "https://via.placeholder.com/40x60?text=NA"} 
                                                     alt={book.name}
                                                     className="w-full h-full object-cover"
                                                     onError={(e) => e.target.src = "https://via.placeholder.com/40x60?text=NA"}

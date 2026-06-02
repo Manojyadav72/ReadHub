@@ -91,8 +91,8 @@ function BookDetails() {
 
     if (!book) return null;
 
-    const imageUrl = book.image ? (book.image.startsWith('http') ? book.image : `http://localhost:4001${book.image}`) : "https://via.placeholder.com/400x600?text=No+Cover";
-    const pdfUrl = book.pdf ? `http://localhost:4001${book.pdf}` : null;
+    const imageUrl = book.image ? (book.image.startsWith('http') ? book.image : `https://readhub-qkv1.onrender.com${book.image}`) : "https://via.placeholder.com/400x600?text=No+Cover";
+    const pdfUrl = book.pdf ? `https://readhub-qkv1.onrender.com${book.pdf}` : null;
 
     return (
         <div className="min-h-screen bg-gray-50 dark:bg-dark text-gray-900 dark:text-gray-100">

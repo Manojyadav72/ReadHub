@@ -45,14 +45,14 @@ function Cards({ item }) {
                     {/* Image Area */}
                     <figure className="relative h-64 overflow-hidden bg-gray-100 dark:bg-gray-800">
                         <img 
-                            src={item.image ? `http://localhost:4001${item.image}` : "https://via.placeholder.com/400x600?text=No+Cover"} 
+                            src={item.image ? `https://readhub-qkv1.onrender.com${item.image}` : "https://via.placeholder.com/400x600?text=No+Cover"} 
                             alt={item.name} 
                             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                             onError={(e) => {
                                 e.target.onerror = null;
                                 // If local file fails, try as absolute URL
                                 if (item.image && !item.image.startsWith('http')) {
-                                   e.target.src = `http://localhost:4001${item.image}`;
+                                   e.target.src = `https://readhub-qkv1.onrender.com${item.image}`;
                                 } else if(item.image) {
                                    e.target.src = item.image;
                                 } else {

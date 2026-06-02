@@ -46,7 +46,7 @@ function AdminEditBook() {
                 });
                 
                 if (book.image) {
-                    const fullUrl = book.image.startsWith('http') ? book.image : `http://localhost:4001${book.image}`;
+                    const fullUrl = book.image.startsWith('http') ? book.image : `https://readhub-qkv1.onrender.com${book.image}`;
                     setImagePreview(fullUrl);
                     setImageUrl(book.image);
                 }
