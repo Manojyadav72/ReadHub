@@ -1,0 +1,143 @@
+[{
+  "_id": {
+    "$oid": "6964d4c41f44652fd08e2267"
+  },
+  "id": 1,
+  "name": "Story Book",
+  "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "price": 0,
+  "category": "Free",
+  "image": "https://img.freepik.com/free-photo/pile-books-with-wooden-background_23-2147845797.jpg"
+},
+{
+  "_id": {
+    "$oid": "6964d4c41f44652fd08e2268"
+  },
+  "id": 2,
+  "name": "Comedy Book",
+  "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "price": "0",
+  "category": "Entertainment",
+  "image": "https://img.freepik.com/free-photo/pile-books-with-wooden-background_23-2147845797.jpg"
+},
+{
+  "_id": {
+    "$oid": "6964d4c41f44652fd08e2269"
+  },
+  "id": 3,
+  "name": "Food Book",
+  "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "price": 30,
+  "category": "Food",
+  "image": "https://img.freepik.com/free-photo/pile-books-with-wooden-background_23-2147845797.jpg"
+},
+{
+  "_id": {
+    "$oid": "6964d4c41f44652fd08e226a"
+  },
+  "id": 4,
+  "name": "Sports Book",
+  "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "price": 50,
+  "category": "Sports",
+  "image": "https://img.freepik.com/free-photo/pile-books-with-wooden-background_23-2147845797.jpg"
+},
+{
+  "_id": {
+    "$oid": "6964d4c41f44652fd08e226b"
+  },
+  "id": 5,
+  "name": "Story Book",
+  "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "price": 0,
+  "category": "Free",
+  "image": "https://img.freepik.com/free-photo/pile-books-with-wooden-background_23-2147845797.jpg"
+},
+{
+  "_id": {
+    "$oid": "6964d4c41f44652fd08e226c"
+  },
+  "id": 6,
+  "name": "Music Book",
+  "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  "price": 100,
+  "category": "Songs",
+  "image": "https://img.freepik.com/free-photo/pile-books-with-wooden-background_23-2147845797.jpg"
+},
+{
+  "_id": {
+    "$oid": "6964d4c41f44652fd08e226d"
+  },
+  "id": 7,
+  "name": "Story book",
+  "title": "Lorem, ispum dolar sit  amet  consqueter  adisioing alit",
+  "price": 0,
+  "category": "Free",
+  "image": "https://img.freepik.com/free-photo/pile-books-with-wooden-background_23-2147845797.jpg"
+},
+{
+  "_id": {
+    "$oid": "6964d4c41f44652fd08e226e"
+  },
+  "id": 8,
+  "name": "Story book",
+  "title": "Lorem, ispum dolar sit  amet  consqueter  adisioing alit",
+  "price": 0,
+  "category": "Free",
+  "image": "https://img.freepik.com/free-photo/pile-books-with-wooden-background_23-2147845797.jpg"
+},
+{
+  "_id": {
+    "$oid": "6964d4c41f44652fd08e226f"
+  },
+  "id": 9,
+  "name": "Story book",
+  "title": "Lorem, ispum dolar sit  amet  consqueter  adisioing alit",
+  "price": 0,
+  "category": "Free",
+  "image": "https://img.freepik.com/free-photo/pile-books-with-wooden-background_23-2147845797.jpg"
+},
+{
+  "_id": {
+    "$oid": "6964d4c41f44652fd08e2270"
+  },
+  "id": 10,
+  "name": "Story book",
+  "title": "Lorem, ispum dolar sit  amet  consqueter  adisioing alit",
+  "price": 0,
+  "category": "Free",
+  "image": "https://img.freepik.com/free-photo/pile-books-with-wooden-background_23-2147845797.jpg"
+},
+{
+  "_id": {
+    "$oid": "6964d4c41f44652fd08e2271"
+  },
+  "id": 11,
+  "name": "Story book",
+  "title": "Lorem, ispum dolar sit  amet  consqueter  adisioing alit",
+  "price": 0,
+  "category": "Free",
+  "image": "https://img.freepik.com/free-photo/pile-books-with-wooden-background_23-2147845797.jpg"
+},
+{
+  "_id": {
+    "$oid": "6964d4c41f44652fd08e2272"
+  },
+  "id": 12,
+  "name": "Story book",
+  "title": "Lorem, ispum dolar sit  amet  consqueter  adisioing alit",
+  "price": 0,
+  "category": "Free",
+  "image": "https://img.freepik.com/free-photo/pile-books-with-wooden-background_23-2147845797.jpg"
+},
+{
+  "_id": {
+    "$oid": "6964d4c41f44652fd08e2273"
+  },
+  "id": 13,
+  "name": "Story book",
+  "title": "Lorem, ispum dolar sit  amet  consqueter  adisioing alit",
+  "price": 0,
+  "category": "Free",
+  "image": "https://img.freepik.com/free-photo/pile-books-with-wooden-background_23-2147845797.jpg"
+}]

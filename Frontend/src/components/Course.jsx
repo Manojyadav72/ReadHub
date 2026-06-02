@@ -2,9 +2,8 @@ import React from 'react';
 
 import Cards from './Cards';
 import { Link } from 'react-router-dom';
-import { use } from 'react';
 import axios from 'axios';
-import { useEffect,useState } from 'react'; 
+import { useEffect } from 'react'; 
 
 function Course() {
   const [book,setbook]=React.useState([]);

@@ -1,0 +1,108 @@
+[{
+  "_id": {
+    "$oid": "697340a467fd62490bfade42"
+  },
+  "fullname": "Manoj",
+  "email": "manoj@gmail.com",
+  "password": "12345",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6973423d3d1d2f04b4641d89"
+  },
+  "fullname": "Manoj Yadav",
+  "email": "manoj1@gmail.com",
+  "password": "$2b$10$iLsi1jhYHAHsI3Cpdxd0xuXZR5Q1t/d1vCjWKy1/HTPiMNWRTBf7C",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697af2937431686b67b0f249"
+  },
+  "fullname": "MANOJ YADAV",
+  "email": "manoj123@gmail.com",
+  "password": "$2b$10$Mig341WyNpGis1benX2vpuX0NYXNP/l3I5iNSlYuldpI0/c2vtgEG",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697af2aa7431686b67b0f24d"
+  },
+  "fullname": "MANOJ kumar",
+  "email": "manoj1234@gmail.com",
+  "password": "$2b$10$ti0VHEtCpjOyplJCsdxjB.04yFJd5IFafbIRFeLNq8lCx3JKOlsZW",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697af2c97431686b67b0f252"
+  },
+  "fullname": "MANOJ kumar a",
+  "email": "manoj12345@gmail.com",
+  "password": "$2b$10$zyJPOIGUreewbqPZ8Pn1.ORJUEGD7/uOnyC57i3J8cP6AAS5P.YGi",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697af3912d1865ab38bcd852"
+  },
+  "fullname": "madhav",
+  "email": "madhav123@gmail.com",
+  "password": "$2b$10$.zV42uEXORbSNrdb5YEcxu6QWqmaohn/nae1RlDu/Mv2bTiuaG01m",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697af5052d1865ab38bcd85a"
+  },
+  "fullname": "madhavw",
+  "email": "madhav1233@gmail.com",
+  "password": "$2b$10$RPcm6zQeqYI3f3I25hzyO.X7GOBuwI29PSJbnGNJapqw21/GgPMgC",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697af81d2d1865ab38bcd862"
+  },
+  "fullname": "lalit",
+  "email": "lalit@gmail.com",
+  "password": "$2b$10$gIZ/BGgomTxdT/h160H37.b55.ApjxnM3l.wCJZVDatgkFM/H45fy",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697b05552d1865ab38bcd887"
+  },
+  "fullname": "harsh",
+  "email": "harsh@gmail.com",
+  "password": "$2b$10$lpWicqF0r/Leo8P0cHTuDe/qIuJMX.TFJB59UZtOjTzEMcMDQHKh2",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697b05db2d1865ab38bcd896"
+  },
+  "fullname": "harsh125",
+  "email": "harsh1235@gmail.com",
+  "password": "$2b$10$TmujOvLhTiZvwAAt5abx4eL76WIx68YqQMr4il4argEfDzCKs7TWq",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697c4a2a178a9d577e398879"
+  },
+  "fullname": "test",
+  "email": "test@gmail.com",
+  "password": "$2b$10$AYuwfIIxs8DqhpCD9E./5.73bxpgr.pL3EkRUaIHUNZUALBrGm1l.",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697ca94598f3dbf115250c3a"
+  },
+  "fullname": "prakash",
+  "email": "pgcg@gmail.com",
+  "password": "$2b$10$FMdrpRO0sSxvTeH6MJGQuuA0sQ1.ucyqB/fYciBskaAJVNUTYuF1G",
+  "__v": 0
+}]

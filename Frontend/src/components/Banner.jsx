@@ -1,42 +1,40 @@
-import React from "react";
-import banner from "../../public/Banner.png"
-function Banner() {
-  return (
-      <>
-        <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-12 ">
-          <div className="order-2 md:order-1 w-full md:w-1/2 mt-12 md:mt-32">
-            <div className="space-y-12">
-              <h1 className="text-4xl font-bold">
-                Hello, welcomes here to learn something{" "}
-                <span className="text-pink-500">new everyday!!!</span>
-              </h1>
-              <p className="text-xl">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Recusandae, ullam? Dignissimos corporis fugit praesentium cum
-                dolore tempore eos ipsum neque, iste similique, veritatis
-                molestiae ab quia esse hic. In, quaerat.
-              </p>
-              <label className="input input-bordered flex items-center gap-2 ">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 16 16"
-                  fill="currentColor"
-                  className="h-4 w-4 opacity-70"
-                >
-                  <path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" />
-                  <path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
-                </svg>
-                <input type="text" className="grow" placeholder="Email" />
-              </label>
-            </div>
-            <button className="btn btn-secondary mt-6 bg-pink-500 p-4">Get Started</button>
-          </div>
-          <div className="order-1 w-full md:w-1/2  dark:bg-slate-900">
-            <img src={banner} className="w-92 h-92" alt="image" />
-          </div>
-        </div>
-      </>
-  );
-}
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
+function Banner() {
+    const [search, setSearch] = useState("");
+    const navigate = useNavigate();
+    const handleSearch = (e) => {
+        e.preventDefault();
+        if (search.trim()) navigate(`/books?search=${encodeURIComponent(search.trim())}`);
+    };
+
+    return (
+        <section className="hero-gradient min-h-[85vh] flex items-center relative overflow-hidden">
+            <div className="absolute inset-0 overflow-hidden">
+                <div className="absolute -top-40 -right-40 w-96 h-96 bg-white/5 rounded-full animate-float"></div>
+                <div className="absolute -bottom-20 -left-20 w-72 h-72 bg-white/5 rounded-full animate-float" style={{ animationDelay: "1s" }}></div>
+            </div>
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 py-20 relative z-10 w-full">
+                <div className="text-white text-center animate-fadeInUp">
+                    <div className="inline-block px-4 py-1.5 bg-white/15 rounded-full text-sm font-medium mb-6">📚 Welcome to ReadHub</div>
+                    <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6 font-display">
+                        Discover Your Next <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 to-pink-200">Favorite Book</span>
+                    </h1>
+                    <p className="text-lg text-white/80 max-w-xl mx-auto mb-8">Explore our vast collection of books spanning programming, science, novels, history, and more.</p>
+                    <form onSubmit={handleSearch} className="flex max-w-lg mx-auto">
+                        <input type="text" placeholder="Search by title, author..." value={search} onChange={(e) => setSearch(e.target.value)}
+                            className="flex-1 px-5 py-3 rounded-l-full bg-white/15 backdrop-blur-sm border border-white/20 text-white placeholder-white/60 focus:outline-none" />
+                        <button type="submit" className="px-6 py-3 bg-white text-primary font-semibold rounded-r-full hover:bg-gray-100 transition-colors">Search</button>
+                    </form>
+                    <div className="flex gap-8 mt-10 justify-center">
+                        {[{ n: "1000+", l: "Books" }, { n: "500+", l: "Authors" }, { n: "8", l: "Categories" }].map((s) => (
+                            <div key={s.l}><div className="text-2xl font-bold">{s.n}</div><div className="text-sm text-white/70">{s.l}</div></div>
+                        ))}
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+}
 export default Banner;
