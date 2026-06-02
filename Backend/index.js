@@ -53,7 +53,11 @@ app.use((err, req, res, next) => {
     console.error(err.stack);
     res.status(500).json({ message: "Something went wrong!", error: err.message });
 });
-
+app.get("/", (req, res) => {
+  res.json({
+    message: "ReadHub Backend is Running 🚀"
+  });
+});
 app.listen(PORT, () => {
     console.log(`ReadHub API listening on port ${PORT}`);
 });
